@@ -1,0 +1,413 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Roboto&display=swap');
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   overflow-x: hidden;
+}
+.section2{
+   
+   background-image: url("image13.jpg");
+    height:800px;
+    background-size: cover; 
+    overflow-y: hidden;
+   
+  }
+  .box{
+    height:700px;
+    width:600px;
+    position:relative;
+    left:1000px;
+    border-radius: 15px;
+    background:rgba(0,0,0, .1);
+    backdrop-filter: blur(15px);
+    box-shadow: 5px 5px 55px -1px #229c9c;
+    bottom:370px;
+    overflow-y: hidden;
+  
+  }
+  .box1{
+    
+    height:650px;
+    width:500px;
+    position:relative;
+    margin:20px;
+    margin-left: 50px;
+    border-radius: 15px;
+    background-image: url("shru4.jpg");
+    background-size: cover;
+  
+  }
+  .about{
+    font-size: 1.5rem;
+    color: #fcf8f8;
+    font-weight: 500;
+    position: relative;
+    left:300px;
+    right:40px;
+    padding-right: 60px;
+    top:60px;
+  }
+  
+  .abt{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    color: #12ceb2;
+    font-size: 4rem;
+    position:relative;
+    top:40px;
+    left:300px;
+  }
+ hr{
+    position:relative;
+    top:40px;
+    width:800px;
+    left:300px;
+    border:1.7px solid white;
+
+ }
+ .BOX{
+    position:relative;
+    height:400px;
+    top:100px;
+    right:200px;
+
+ }
+ .resume{
+    padding-left: 40px;
+    position:relative;
+    bottom:30px;
+    left:250px;
+    color:white;
+    display: flex;
+    font-size: 3rem;
+    text-decoration: none;
+    width:350px;
+    border-radius: 5px;
+    border:1.5px solid cyan;
+ }
+ .resume:hover{
+    background-color:#105f63 ;
+    transform:translateY(.8s);
+ }
+
+
+ nav{
+  
+  width:100%;
+  height:100px;
+  background:transparent;
+  display:flex;
+  align-items:center;
+ justify-content: space-evenly;
+overflow-y: hidden;
+
+  
+
+  
+}
+nav::before {
+  object-position :sticky;
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;  
+  width:100%;
+  height:90px;
+  background: transparent;
+  justify-content: space-evenly;
+  z-index:-1;
+}
+
+nav ul{
+  display:flex;
+  list-style:none;
+}
+  nav ul li {
+  overflow-y: hidden;
+  justify-content: space-between;
+
+}
+nav ul li a{
+  color:#f7eeee;
+  text-decoration:none;
+  justify-content: space-between;
+  font-size:30px;
+  font-weight:800;
+  letter-spacing:1px;
+  border-radius: 20px;
+  transition:all 0.3s ease;
+  background: transparent;
+  padding-left: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  padding-right: 30px;
+  position: relative;
+  display: flex;
+
+ 
+}
+nav ul li a:hover,
+nav ul li a.active{
+  color:cyan;
+  background:transparent;
+
+}
+nav i{
+  margin: 0 10px;
+  
+}
+nav .menu-btn i{
+  color:#fff;
+  font-size:52px;
+  cursor:pointer;
+  display:none;
+}
+#click{
+  display:none;
+}
+
+.logo{
+  font-size: 3em;
+  color: white;
+  letter-spacing: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  bottom:30%;
+  padding-top: 50px;
+  right:80px;
+  left:20px
+
+}
+  
+span{
+  color:cyan;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media(orientation:portrait){
+    .BOX{
+        position:relative;
+        height:500px;
+        left:20px;
+        right:60px;
+        width:350px;
+        top:350px;
+        left:-1px;
+        left:10px;
+      
+     } 
+     .about{
+        font-size: 1.3rem;
+        color:white;
+        font-weight: 500;
+        position: relative;
+        right:90px;
+        top:60px;
+        left:-1px;
+        left:20px;
+        right:40px;
+
+      }
+        
+  .abt{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    color: #12ceb2;
+    font-size: 4rem;
+    position:relative;
+    top:40px;
+    left:-1px;
+    left:10px;
+    right:40px;
+
+  }
+  hr{
+    position:relative;
+    top:40px;
+    width:300px;
+    left:-1px;
+    left:10px;
+    right:40px;
+    border:2px solid white;
+ }
+ .box{
+    height:350px;
+    width:300px;
+    position:relative;
+    border-radius: 15px;
+    background:rgba(0,0,0, .1);
+    backdrop-filter: blur(15px);
+    box-shadow: 5px 5px 55px -1px #229c9c;
+    bottom:530px;
+    overflow-y: hidden;
+    left:-1px;
+    left:15px;
+    right:90px;
+  
+  }
+  .box1{
+    
+    height:300px;
+    width:250px;
+    position:relative;
+    border-radius: 15px;
+    background-image: url("shru4.jpg");
+    background-size: cover;
+    right:20.5px;
+    
+  }
+  .resume{
+    padding-left: 40px;
+    position:relative;
+    left:50px;
+    color:white;
+    display: flex;
+    font-size: 2rem;
+    text-decoration: none;
+    width:250px;
+    border-radius: 5px;
+    border:1.5px solid cyan;
+    top:260px;
+ }
+ .resume:hover{
+    background-color:#105f63 ;
+    transform:translateY(.8s);
+ }
+
+
+
+ nav .menu-btn i{
+  display:block;
+  font-size:40px;
+ 
+}
+nav{
+
+width:100%;
+height:100px;
+background:transparent;
+display:flex;
+align-items:center;
+justify-content: space-evenly;
+overflow-y: hidden;
+position: relative;
+bottom: 21rem;
+
+}
+#click:checked ~ .menu-btn i:before{
+  content:"\f00d";
+}
+nav ul{
+
+  position:fixed;
+  left:-100%;
+  background:transparent;
+  background:rgba(0,0,0, .1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0.5rem 1rem rgba(0,0,0, .1);
+   height:350px;
+   top:90px;
+  width:100%;
+  display:block;
+  text-align: center;
+  transition: all 0.3s ease;
+  overflow-y: hidden;
+}
+#click:checked ~ ul{
+  left:0%;
+}
+nav ul li{
+  margin:40px 0;
+
+}
+nav ul li a{
+  font-size:20px;
+  font-display: initial;
+}
+
+nav ul li a:hover,
+nav ul li a.active{
+  color:cyan;
+  background:transparent;
+}
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

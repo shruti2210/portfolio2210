@@ -1,0 +1,347 @@
+* {
+    box-sizing: border-box;
+    padding:0px 0px;
+    margin: 0%;
+    overflow-x: hidden;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+    background-image: url("image13.jpg");
+    background-size: cover;
+ 
+   
+
+   }
+
+
+
+
+
+
+
+
+
+
+
+  nav{
+  
+    width:100%;
+    height:100px;
+    background:transparent;
+    display:flex;
+    align-items:center;
+   justify-content: space-evenly;
+  overflow-y: hidden;
+    position: relative;
+  
+  
+    
+  }
+  nav::before {
+    object-position :sticky;
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;  
+    width:100%;
+    height:90px;
+    background: transparent;
+    justify-content: space-evenly;
+    z-index:-1;
+  }
+  
+  nav ul{
+    display:flex;
+    list-style:none;
+  }
+    nav ul li {
+    overflow-y: hidden;
+    justify-content: space-between;
+  
+  }
+  nav ul li a{
+    color:#fef9f9;
+    text-decoration:none;
+    justify-content: space-between;
+    font-size:30px;
+    font-weight:800;
+    letter-spacing:1px;
+    border-radius: 20px;
+    transition:all 0.3s ease;
+    background: transparent;
+    padding-left: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-right: 30px;
+    position: relative;
+    display: flex;
+  
+   
+  }
+  nav ul li a:hover,
+  nav ul li a.active{
+    color:cyan;
+    background:transparent;
+  
+  }
+  nav i{
+    margin: 0 10px;
+    
+  }
+  nav .menu-btn i{
+    color:#fff;
+    font-size:52px;
+    cursor:pointer;
+    display:none;
+  }
+  #click{
+    display:none;
+  }
+  .logo{
+    font-size: 3em;
+    color: white;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom:30%;
+    padding-top: 50px;
+    right:80px;
+    left:20px
+
+}
+span{
+  color:cyan;
+}
+
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+  height: 700px;
+  border-radius: 15px;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #2c2a2a;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 3.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.container1{
+    padding-top: 30px;
+    border-radius: 15px;;
+}
+
+
+
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #a7b7c1;
+    border-radius: 40px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+img{
+  width:1000px;
+  height:700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media(orientation:portrait){
+    .container {
+      position: relative;
+      background-image: url("image11.jpg");
+      background-size: cover;
+      height:800px;
+      overflow-y: hidden;
+     }
+    .container1{
+      position: relative;
+      height:500px;
+      width:500px;
+      top:60px;
+      overflow-y: hidden;
+      left:-1px;
+      left:0px;
+    }
+    .prev,
+    .next {
+      cursor: pointer;
+      position: relative;
+      width: auto;
+      padding: 15px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 30px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+      left:-1px;
+      left:140px;
+      top:90px;
+      
+    }
+
+
+
+
+    nav .menu-btn i{
+      display:block;
+      font-size:40px;
+     
+  }
+  nav{
+  
+    width:100%;
+    height:100px;
+    background:transparent;
+    display:flex;
+    align-items:center;
+   justify-content: space-evenly;
+  overflow-y: hidden;
+ 
+  
+    
+  }
+  #click:checked ~ .menu-btn i:before{
+      content:"\f00d";
+  }
+  nav ul{
+
+      position:fixed;
+      left:-100%;
+      background:transparent;
+      background:rgba(0,0,0, .1);
+      backdrop-filter: blur(10px);
+      box-shadow: 0.5rem 1rem rgba(0,0,0, .1);
+       height:350px;
+       top:90px;
+      width:100%;
+      display:block;
+      text-align: center;
+      transition: all 0.3s ease;
+      overflow-y: hidden;
+  }
+  #click:checked ~ ul{
+      left:0%;
+  }
+  nav ul li{
+      margin:40px 0;
+
+  }
+  nav ul li a{
+      font-size:20px;
+      font-display: initial;
+  }
+
+  nav ul li a:hover,
+  nav ul li a.active{
+      color:cyan;
+      background:transparent;
+  }
+
+  }
